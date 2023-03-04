@@ -29,10 +29,7 @@
 html {
   font-family: "Lucida Sans", sans-serif;
 }
-body{
 
-  background: linear-gradient(whitesmoke,rgb(198, 146, 247));
-}
 .header {
   background-color: #9933cc;
   color: #ffffff;
@@ -72,6 +69,24 @@ body{
   text-align: center;
   font-size: 12px;
   padding: 15px;
+}
+  
+  .footer a{
+  margin-top:1rem;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  text-decoration:none;
+}
+
+.footer a:hover{
+background-color: #9933cc;
 }
 
 /* For mobile phones: */
@@ -158,8 +173,7 @@ background-color: #9933cc;
   <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-center-align">More About Us</button>
 
   <div id="Demo1" class="w3-container w3-hide">
-    <h4>Section 1</h4>
-    <p>Some text..</p>
+     <a href="MoreAboutUs.html">The Team</a>
   </div>
 
   <script>
